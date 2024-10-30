@@ -1,0 +1,40 @@
+.activity-list .activity-item .front-meta.action .button:before,
+.activity-list .activity-item .front-meta.action .icons:before {
+	font-family: dashicons;
+	font-size: 18px;
+	vertical-align: middle;
+}
+
+.activity-list .activity-item .front-meta.action .acomment-reply.button:before {
+	content: "\f101";
+}
+
+.activity-list .activity-item .front-meta.action .view:before {
+	content: "\f125";
+}
+
+.activity-list .activity-item .front-meta.action .fav:before {
+	content: "\f154";
+}
+
+.activity-list a.button.unfav,
+.activity-list .activity-item .front-meta.action .unfav:before {
+	content: "\f155";
+}
+
+.activity-list .activity-item .front-meta.action .delete-activity:before {
+	content: "\f153";
+}
+.bp-extended-groups-clearfix:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+#extended-groups-list{
+	list-style: none;
+	margin-left:0;
+}
+
+
+
+
